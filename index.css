@@ -1,0 +1,313 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+header{
+    position: fixed;
+    width: 100%;
+}
+header nav .collapse a{
+    margin-right: 30px;
+    font-size: 25px;
+    color: white;
+}
+nav .collapse a:hover{
+    color: orangered;
+    border-bottom: 3px solid orangered;
+}
+section.home{
+    display: flex;
+    justify-content: space-around;
+    background-color: #444;
+    padding-bottom: 20px;
+    padding-top: 100px;
+
+}
+section.home .home-img img{
+    margin-left: 70px;
+    margin-bottom: 100px;
+}
+.home-content .btn-box button{
+    font-size: 25px;
+    margin: 10px 0;
+    padding: 5px;
+    border: none;
+    outline: none;
+    background-color: orangered;
+    color: white;
+    font-weight: 600px;
+    border-radius: 5px;
+    width: 200px;
+}
+.home-content .btn-box button:hover{
+    transform: scale(1.08);
+    box-shadow: 0 0 25px orangered;
+}
+.home-content .btn-box button .btn1{
+    margin-right: 10px;
+}
+span{
+    color: orangered;
+    text-shadow: 0 0 25px orangered,0 0 50px orangered;
+}
+section.about{
+    background-color: #444;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+section.about p{
+    width: 600px;
+    text-align: justify;
+    font-size: 25px;
+    padding: 10px;
+}
+section.about h1{
+    font-size: 55px;
+    padding: 10px;
+}
+section.about h2{
+    margin-right: 300px;
+}
+section.about p{
+    font-size: 25px;
+}
+.about-img img{
+    margin-top: 3em;
+    border-radius: 50%;
+    box-shadow: 0 0 25px orangered,0 0 50px orangered;
+}
+.about-content .datas{
+    justify-content: space-around;
+    border: none;
+    border-radius: 5px;
+    background-color: orangered;
+    padding: 10px;
+    text-align: center;
+   
+}
+.datas h5{
+    font-weight: bold;
+    font-size: 35px;
+}
+.datas h6{
+    font-size: 25px;
+}
+::-webkit-scrollbar{
+    width: 10px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: orangered;
+}
+::-webkit-scrollbar-track{
+    background-color: black;
+    width: 30px;
+}
+section.skills{
+   padding-top: 100px;
+   padding-bottom: 100px;
+   background-color: #444;
+   color: white;
+   width: 100%;
+   display: flex;
+   justify-content: space-around;
+
+}
+section.skills h1{
+    font-size: 55px;
+    
+}
+section.skills .skill-img img{
+    margin-left: 20px;
+    margin-top: 50px;
+}
+section.skills p{
+    font-size: 25px;
+}
+section.project{
+    background-color: #444;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+section.project .project-item{
+    width: 100%;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #333;
+}
+section.project h1{
+    font-size: 55px;
+    text-align: center;
+}
+section.services{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: #444;
+    color: white;
+    text-align: center;
+}
+section.services h1{
+    font-size: 55px;
+}
+section.services h4{
+    font-size: 35px;
+}
+section.services p{
+    font-size: 25px;
+    text-align: justify;
+}
+section.services .card{
+    background-color: #333;
+}
+section.resume{
+    background-color: #444;
+    color: white;
+    padding-bottom: 100px;
+    padding-top: 100px;
+}
+section.resume h1{
+    text-align: center;
+    font-size: 55px;
+}
+section.resume .row h2{
+    text-align: center;
+    font-size: 45px;
+}
+section.resume .row h3,h4,h5{
+    text-align: center;
+}
+section.resume .row .resume-item h4{
+    background-color: orangered;
+    width: 140px;
+    margin-left: 170px;
+    border-radius: 5px;
+    padding: 5px;
+}
+section.resume .row p{
+    text-align: justify;
+    font-size: 25px;
+}
+.resume-item {
+    margin-top: 10px;
+    background-color: #555;
+    padding: 20px;
+    border-radius: 5px;
+    width: 80%;
+    text-align: center;
+    font-size: 27px;
+}
+section.contact{
+    background-color: #444;
+    color: white;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+section.contact h1{
+    font-size: 55px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+section.contact input,textarea{
+    background-color: transparent;
+    border: 1px solid white;
+    height: 70px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 25px;
+}
+section.contact input::placeholder{
+    color: white;
+    margin-left: 30px;
+    font-size: 25px;
+}
+section.contact textarea{
+    background-color: transparent;
+    border: 1px solid white;
+    height: 200px;
+    width: 100%;
+    border-radius: 5px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 25px;
+}
+section.contact textarea::placeholder{
+    color: white;
+    margin-left: 30px;
+    font-size: 25px;
+}
+section.contact button{
+    font-size: 30px;
+    color: white;
+    background-color: orangered;
+    text-align: center;
+    width: 100%;
+    border-radius: 5px;
+}
+section.contact button:hover{
+    box-shadow: 0 0 25px orangered,0 0 50px orangered;
+}
+footer{
+    background-color: black;
+    color: white;
+    margin-bottom: 0px;
+    padding: 20px;
+    margin-top: -50px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    padding: 40px 0;
+}
+footer .social{
+    text-align: center;
+    padding-bottom: 25px;
+}
+footer .social a{
+    font-size: 25px;
+    width: 40px;
+    height: 40px;
+    line-height: 38px;
+    text-align: center;
+}
+footer.social a:hover{
+    transform: scale(1.08);
+}
+footer ul{
+    margin-top: 0;
+    padding: 0;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+    text-align: center;
+    list-style: none;
+}
+footer ul li a{
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 3px solid transparent;
+    transition: 0.3 ease;
+}
+footer ul li a:hover{
+    border-bottom: 3px solid orangered;
+    color: orangered;
+    transform: scale(1.08);
+    text-shadow: 0 0 25px orangered, 0 0 50px orangered;
+}
+footer .list p{
+    text-align: center;
+    font-size: 25px;
+   
+
+}
+section.service .card{
+       background-color: #555;
+}
